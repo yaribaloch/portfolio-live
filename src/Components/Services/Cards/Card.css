@@ -1,0 +1,38 @@
+.card{
+    height: 13rem;
+    width: 10rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background:white;
+    border-radius: 20px;
+    border: 7px solid var(--orange);
+    box-shadow: var(--smboxShadow);
+
+}
+.card>:nth-child(1){
+        height: 4.5rem ;
+}
+.card>:nth-child(2){
+    font-size: 20px;
+    font-weight: 700;    
+}
+.card>:nth-child(3){
+    margin-top: 1rem;
+    font-size: 15px;
+    color: var(--gray);
+}
+.c-button{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 16px;
+    box-shadow: var(--boxShadow);
+    color: rgb(130, 173, 254);
+    cursor: pointer;
+}

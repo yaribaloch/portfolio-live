@@ -15,9 +15,24 @@
     padding: 0.5rem 3.5rem;
     overflow: hidden;
     color: var(--black);    
+
 }
+.button{
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(180deg, #F5C32C 26%, #FCA61F 99%);
+  box-shadow: 0px 20px 24px 3px rgba(252, 166, 31, 0.45);
 
+}
+.button:hover{
+background: white;
+cursor: pointer;
+color: var(--orange);
 
+}
   
 
   

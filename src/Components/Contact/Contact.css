@@ -1,0 +1,37 @@
+.contact{
+    display: flex;
+    padding: 2rem 3rem;
+}
+.right{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 20rem;
+}
+.right>*{
+    border-radius: 5px;
+    border-color: rgb(255, 145, 145);
+    font-size: 0.8rem;
+    box-shadow: var(--boxShadow);
+    color: var(--gray);
+    width: 100%;
+}
+.right>:nth-child(1){
+    height: 2.5rem;
+}
+.right>:nth-child(2){
+    height: 2.5rem;
+}
+.right>:nth-child(3){
+    height: 5rem;
+}
+.cm-button{
+    width: 5rem;
+    height: 2rem;
+}
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}

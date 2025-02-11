@@ -1,0 +1,23 @@
+.slide{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: var(--blueCard);
+    border-width: 10px;
+    box-shadow: var(--smboxShadow);
+    gap: 2rem;
+    padding: 2rem;
+    margin: 5rem 7rem 5rem 7rem;
+}
+.slide>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.slide>span{
+    height: fit-content;
+    color: var(--gray);
+}

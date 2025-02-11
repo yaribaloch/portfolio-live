@@ -1,0 +1,14 @@
+.services{
+    display: flex;
+    padding: 8rem 3rem 8rem 3rem;
+    height: 90vh;
+}
+
+.s-button{
+    width: 5rem;
+    margin-top: 5rem;
+}
+.cards{
+    flex: 1;
+    position: relative;
+}
