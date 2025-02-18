@@ -4,6 +4,7 @@ import "swiper/css";
 import "./Testimonial.css";
 import Slide from './Slide/Slide';
 import Profile1 from "../../img/profile1.jpg";
+import UnknownProfile from "../../img/pf.jpg";
 import Profile2 from "../../img/profile2.jpg";
 import Profile3 from "../../img/profile3.jpg";
 import Profile4 from "../../img/profile4.jpg";
@@ -15,36 +16,26 @@ const Testimonial = () => {
 
     const clients = [{
         "key": 1,
-        "img": Profile1,
-        "review": "Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum.<br/>Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."
+        "img": UnknownProfile,
+        "review": "Worked with Hammad Altaf on a wide range of graphic design projects, including brand identity, product packaging, clothing designs, and cover artwork. My creativity and professionalism consistently exceeded expectations, leading to a strong, ongoing partnership. Hammad is now a valued long-term client. Lorem epsum lorem epsum lorem epsum lorem epsum."
     },
     { 
         "key": 2,
-        "img": Profile2,
-        "review": "Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum.<br/>Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."
+        "img": UnknownProfile,
+        "review": "Worked with Hammad Altaf on a wide range of graphic design projects, including brand identity, product packaging, clothing designs, and cover artwork. My creativity and professionalism consistently exceeded expectations, leading to a strong, ongoing partnership. Hammad is now a valued long-term client. Lorem epsum lorem epsum lorem epsum lorem epsum."
     },
     { 
         "key": 3,
-        "img": Profile3,
-        "review": "Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum.<br/>Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."
+        "img": UnknownProfile,
+        "review": "Worked with Hammad Altaf on a wide range of graphic design projects, including brand identity, product packaging, clothing designs, and cover artwork. My creativity and professionalism consistently exceeded expectations, leading to a strong, ongoing partnership. Hammad is now a valued long-term client. Lorem epsum lorem epsum lorem epsum lorem epsum."
     },
     { 
         "key": 4,
-        "img": Profile4,
-        "review": "Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum.<br/>Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."
-    },
-    { 
-        "key": 5,
-        "img": Profile5,
-        "review": "Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum.<br/>Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."
-    },
-    { 
-        "key": 6,
-        "img": Profile6,
-        "review": "Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum.<br/>Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."
+        "img": UnknownProfile,
+        "review": "Worked with Hammad Altaf on a wide range of graphic design projects, including brand identity, product packaging, clothing designs, and cover artwork. My creativity and professionalism consistently exceeded expectations, leading to a strong, ongoing partnership. Hammad is now a valued long-term client. Lorem epsum lorem epsum lorem epsum lorem epsum."
     }];
     return (
-        <div className='testimonial'>
+        <div className='testimonial' id='Testimonial'>
             <div className='heading'>
                 <span>Clients always get</span>
                 <span>Exceptional Work</span>

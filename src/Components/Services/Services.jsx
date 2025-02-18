@@ -7,8 +7,8 @@ import Humbleimoji from "../../img/humble.png";
 import Description from './Description/Description';
 const Services = () => {
     return (
-        <div className='services'>
-            <Description hasButton="true" title1={"My Awesome"} title2={"services"} detail={"Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."}/>
+        <div className='services' id='Services'>
+            <Description hasButton="true" title1={"My Awesome"} title2={"services"} detail={"I provide awsome services including Web Design, Web Frontend Development, Responsive Frontend, UI and UX Design."}/>
             <div className="cards">
                 <Card style={{left: "14rem"}} imoji={Heartimoji} heading={"Design"} detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe Xd"}/>
                 <Card style={{left: "-4rem", top: "12rem"}} imoji={Glassesimoji} heading={"Developer"} detail={"HTML, CSS, JavaScript, React, NodeJS, Express"}/>

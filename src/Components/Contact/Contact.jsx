@@ -29,7 +29,7 @@ const form = useRef();
       };
 
     return (
-        <div className='contact'>
+        <div className='contact' id='Contact'>
             <Description hasButton="false" title1={"Get in Touch"} title2={"Contact me"}/> 
             <form className="right" ref={form} onSubmit={sendEmail}>      
             <input type="text" name='user-name' placeholder='Name'/>
@@ -37,7 +37,8 @@ const form = useRef();
             <textarea type="text" name='message' placeholder='Message'/>
             <span style={mailSent? {color: "green"}:{color:"red"}}>{formSubmitted && (mailSent? "Mail sent, thanks for contacting us.": "Oops, mail could not be sent !")}</span>
             <input type='submit' className="button cm-button" value={"Send"}/>
-            <div className="blurDiv" style={{background:"var(--purple)"}}></div>
+            <div className='p-blur'><div className="blurDiv" style={{background:"var(--purple)"}}></div></div>
+            
             </form>    
         </div>
     );

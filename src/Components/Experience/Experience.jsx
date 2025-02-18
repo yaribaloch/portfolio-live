@@ -2,19 +2,19 @@ import React from 'react';
 import "./Experience.css"
 const Experience = () => {
     return (
-        <div className='experience'>
+        <div className='experience' id='Experience'>
             <div className='achievement'>
-                <div className="cirlcle"><span>8+</span></div>
+                <div className="cirlcle"><span>1+</span></div>
                 <span>years</span>
                 <span>Experience</span>
             </div>
             <div className='achievement'>
-                <div className="cirlcle"><span>20+</span></div>
+                <div className="cirlcle"><span>2+</span></div>
                 <span>completed</span>
                 <span>Projects</span>
             </div>
             <div className='achievement'>
-                <div className="cirlcle"><span>5+</span></div>
+                <div className="cirlcle"><span>2+</span></div>
                 <span>companies</span>
                 <span>Work</span>
             </div>

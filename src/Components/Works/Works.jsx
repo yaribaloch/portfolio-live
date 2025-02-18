@@ -9,7 +9,7 @@ import Amazon from "../../img/amazon.png";
 const Works = () => {
     return (
         <div className='works'>
-        <Description hasButton="true"  title1={"Works fro All these"} title2={"Brands & Clients"} detail={"Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum.<br/>Lorem epsum is simplary dummy text of printing of printing lorem epsum.<br />Lorem epsum lorem epsum lorem epsum lorem epsum."}/>
+        <Description hasButton="true"  title1={"Works fro All these"} title2={"Brands & Clients"} detail={"Provided services to various clients on Upwork, Fiverr, and Facebook, delivering high-quality solutions tailored to their needs. Successfully built and managed online stores on platforms like Amazon and Shopify, ensuring customer satisfaction and strong sales performance."}/>
         <div className="platforms">
             <div className='w-cirlcle'>
             <div className='cirlcles'><img src={Upwork} alt="" /></div>

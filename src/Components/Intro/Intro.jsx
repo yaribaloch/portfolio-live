@@ -16,7 +16,7 @@ const Intro = () => {
             <div className="i-left">
             <div className='i-name'>
                 <span>Hy! I Am</span>
-                <span>Andrew Thomas</span>
+                <span>Yasir Tufail</span>
                 <span>Frontend Developer with high level of experience in web desigsning and development, producing the quality work.</span>
             </div>
             <button className="button i-button">Hire me</button>
@@ -34,8 +34,8 @@ const Intro = () => {
                 <div style={{top: '-2%', right:'4%' }}>
                 <FloatingDiv image={Crown} text={"Web Developer"} />
                 </div>
-                <div style={{bottom: '15%', left:'-4%' }}>
-                <FloatingDiv image={Thumbup} text={"Best Design Award"} />
+                <div style={{bottom: '-7%', left:'4%' }}>
+                <FloatingDiv image={Thumbup} text={"Graphics Design"} />
                 </div>
                 <div className="blurDiv" style={{background: "var(--purple)", top: "-18%", left: "56%"}}></div>
                 <div className="blurDiv" style={{background: " var(--blueCard)", top: "17rem", left: "-9rem"}}></div>
