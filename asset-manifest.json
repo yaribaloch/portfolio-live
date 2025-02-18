@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio-live/static/css/main.f2b80048.css",
-    "main.js": "/portfolio-live/static/js/main.9b15cacb.js",
-    "static/media/ecommerce.png": "/portfolio-live/static/media/ecommerce.522da76635d52117102b.png",
+    "main.css": "/portfolio-live/static/css/main.3d6d881d.css",
+    "main.js": "/portfolio-live/static/js/main.dcb60613.js",
+    "static/media/ps.png": "/portfolio-live/static/media/ps.88aa4753c817b4afe580.png",
+    "static/media/cr.png": "/portfolio-live/static/media/cr.f147d9e6273f40379dfd.png",
     "static/media/sidebar.png": "/portfolio-live/static/media/sidebar.b2225070b8adae68d063.png",
-    "static/media/musicapp.png": "/portfolio-live/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/ka.png": "/portfolio-live/static/media/ka.f4968d306da59a5e5ab2.png",
     "static/media/boy.png": "/portfolio-live/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/resume.pdf": "/portfolio-live/static/media/resume.9c6339d0ccbedc0ee642.pdf",
     "static/media/glassesimoji.png": "/portfolio-live/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
@@ -17,11 +18,11 @@
     "static/media/Vector2.png": "/portfolio-live/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/portfolio-live/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/portfolio-live/index.html",
-    "main.f2b80048.css.map": "/portfolio-live/static/css/main.f2b80048.css.map",
-    "main.9b15cacb.js.map": "/portfolio-live/static/js/main.9b15cacb.js.map"
+    "main.3d6d881d.css.map": "/portfolio-live/static/css/main.3d6d881d.css.map",
+    "main.dcb60613.js.map": "/portfolio-live/static/js/main.dcb60613.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2b80048.css",
-    "static/js/main.9b15cacb.js"
+    "static/css/main.3d6d881d.css",
+    "static/js/main.dcb60613.js"
   ]
 }
